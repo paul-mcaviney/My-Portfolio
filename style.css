@@ -259,6 +259,7 @@
   @media (max-width: 1000px) {
     #profile-photo {
       width: 100%;
+      height: auto;
       margin-bottom: 2rem;
     }
   }
@@ -269,6 +270,14 @@
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: -100px;
+  }
+
+  @media (max-width: 420px) {
+      #work {
+          margin: 0 auto;
+          margin-bottom: 50px;
+      }
   }
   
   #word-container {
@@ -322,16 +331,28 @@
   
   #work-container {
     position: relative;
-    
+    z-index: 10;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
+
+  .work-image {
+      width: 100%;
+      height: auto;
+      z-index: -50;
+      border-radius: 5px;
+  }
+
+  .work-description {
+    margin: 1rem;
+  }
   
   .project-title {
     position: relative;
-    
+    text-decoration: none;
+    color: #000;
     width: 25%;
     height: 275px;
     background: #fff;
@@ -343,7 +364,7 @@
   }
   
   .project-title:hover {
-    /*transform: scale(1.1);*/
+    transform: scale(1.1);
   }
   
   @media (max-width: 600px) {
