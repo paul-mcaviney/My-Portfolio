@@ -228,6 +228,12 @@
   #caption {
     text-align: right;
   }
+
+
+/****************************/
+/*         About            */
+/****************************/
+
   
   #about {
     margin: 10%;
@@ -263,6 +269,12 @@
       margin-bottom: 2rem;
     }
   }
+
+
+/****************************/
+/*          Work            */
+/****************************/
+
   
   #work {
     position: relative;
@@ -270,19 +282,13 @@
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: -100px;
-  }
-
-  @media (max-width: 420px) {
-      #work {
-          margin: 0 auto;
-          margin-bottom: 50px;
-      }
+    margin-bottom: -75px;
+    padding-top: 25px;
   }
   
   #word-container {
     position: relative;
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
   }
   
   #work-header {
@@ -325,7 +331,7 @@
     box-shadow: 0 2px 0.2em var(--light-grey);
     
     background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #323232;
-   background-blend-mode: multiply,multiply;
+    background-blend-mode: multiply,multiply;
     
   }
   
@@ -371,6 +377,7 @@
     #work {
       height: auto;
       padding-bottom: 50px;
+      margin-bottom: 50px;
     }
     
     #work-top {
@@ -389,6 +396,12 @@
       width: 61%;
     }
   }
+
+
+/****************************/
+/*        Services          */
+/****************************/
+
   
   .wave-container {
     position: relative;
@@ -470,6 +483,12 @@
   .service-h3 {
     margin-bottom: 0.5rem;
   }
+
+
+/****************************/
+/*         Contact          */
+/****************************/
+
   
   #contact {
     padding-bottom: 75px;
