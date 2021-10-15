@@ -246,6 +246,22 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
+
+  /* .profile-links {
+      width: 1500px;
+      border: 1px solid red;
+  } */
+
+  .about-socials {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .social-icon {
+      filter: grayscale(100%);
+  }
   
   @media (max-width: 1000px) {
     #about {
@@ -256,7 +272,7 @@
   }
   
   #profile-photo {
-    width: 25%;
+    width: 100%;
     height: auto;
     margin-right: 2rem;
     border-radius: 5px;
