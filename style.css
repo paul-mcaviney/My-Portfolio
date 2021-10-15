@@ -150,7 +150,8 @@
   }
   
   #name-container {
-    display: absolute;
+    display: block;
+    position: relative;
     inset: 0;
     width: 100%;
     height: auto;
@@ -158,14 +159,14 @@
   
   #my-name {
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
+    line-height: 4rem;
     position: relative;
-    top: 300px;
+    top: 350px;
     color: #e6e6e6;
     margin: 0 auto;
     z-index: 1;
     text-shadow: 0 0 0.02em #fff, 0 0 0.2em var(--main-blue), 0 0 0.3em var(--main-blue); 
-    
   }
   
   #name-border {
@@ -182,7 +183,8 @@
   
   @media (max-width: 560px) {
     #my-name {
-      font-size: 4rem;
+      font-size: 9rem;
+      line-height: 8rem;
       top: 250px;
       line-height: 4rem;
     }
@@ -210,6 +212,7 @@
     top: 150px;
     color: #9d9d9d;
     text-align: center;
+    width: 500px;
   }
   
   @media (max-width: 560px) {
